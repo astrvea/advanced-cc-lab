@@ -1,0 +1,9 @@
+body{
+    font-family: 'Zeyada', cursive;
+    font-size: x-large;
+    text-align: center;
+
+    background-image: url(/assets/background_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

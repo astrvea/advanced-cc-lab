@@ -1,0 +1,24 @@
+body{
+    font-family: 'Times New Roman', serif;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 15%;
+    cursor: url(/assets/dead_heart.png), auto;
+}
+
+html { 
+    background: url(/assets/background_1.png) no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}

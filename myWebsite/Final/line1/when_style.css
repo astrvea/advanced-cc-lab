@@ -5,3 +5,31 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
+body{
+    color: white;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: x-large;
+}
+
+div{
+    padding-top: 5%;
+    padding-left: 30%;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: large;
+}
+
+#line{
+    padding-top: 11%;
+    padding-left: 20%;
+    font-size: medium;
+}
+
+#picture{
+    padding-top: 10%;
+    padding-right: 50%;
+    width: 50%;
+    max-width: 100px;
+    height: 100px;
+    opacity: 0.1;
+}

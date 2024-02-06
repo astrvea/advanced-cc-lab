@@ -1,5 +1,5 @@
 html { 
-    background: url(/assets/background_4.png) no-repeat center center fixed #000; 
+    background: url(/assets/background_8.png) no-repeat center center fixed #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,4 +8,32 @@ html {
 
 body{
     color: white;
+    font-family: 'Zeyada', cursive;
+    font-size: x-large;
+}
+
+div{
+    padding-left: 5%;
+    font-family: 'Zeyada', cursive;
+    font-size: x-large;
+}
+
+#line{
+    text-align: left;
+    font-size: xx-large;
+}
+
+#second_line{
+    text-align: left;
+    padding-left: 10%;
+    font-size: x-large;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BF40BF;
 }

@@ -1,5 +1,5 @@
 html { 
-    background: url(/assets/background_6.png) no-repeat center center fixed #000; 
+    background: url(assets/background_6.png) no-repeat center center fixed #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

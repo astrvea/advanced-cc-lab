@@ -1,0 +1,28 @@
+html { 
+    background: url(/images/viego.jpeg) no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    font-size: large;
+    color: white;
+    text-align: left;
+    padding-top: 15%;
+}
+
+div{
+    font-size: large;
+    text-align: right;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}

@@ -1,5 +1,5 @@
 html { 
-    background: url(images/menu_page.jpeg) no-repeat center center fixed #000; 
+    background: url(/images/ruination-sentinels-of-light-transformed.jpeg) no-repeat center center fixed #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,12 +19,12 @@ h1{
 
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(31, 32, 39);
+    background-color: rgb(56, 56, 62);
     padding: 0;
     margin: 0;
     overflow: hidden;
     align-items: center;
-    border: 5px solid black;
+    border: 3px solid white;
 }
 
 .navbar a{
@@ -42,3 +42,40 @@ h1{
 .navbar li{
     float: left;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(51, 171, 175);
+}
+
+p{
+    color: white;
+    text-align: right;
+    padding-top: 10%;
+}
+
+.carousel{
+    padding: 1rem;
+    background: white;
+    box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+    border-radius: 8px;
+    max-width: 900px;
+    width: 85vw;
+    margin: auto;
+}
+
+.images-container{
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+}
+
+.images-container img{
+    height: 281px;
+    width: 500px;
+}
+

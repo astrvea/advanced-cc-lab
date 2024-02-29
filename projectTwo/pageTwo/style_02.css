@@ -1,5 +1,5 @@
 html { 
-    background: url(/images/sentinels.png) no-repeat center center fixed #000; 
+    background: url(/images/sentinel-hq.jpeg) no-repeat center center fixed #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,11 +28,11 @@ body {
     position: relative;
     text-align: center;
     margin: 0 20px;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .gallery .description {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(158, 156, 156, 0.5);
     color: white;
     padding: 10px;
 }
@@ -51,7 +51,7 @@ body {
     margin: 0;
     overflow: hidden;
     align-items: center;
-    border: 5px solid black;
+    border: 3px solid white;
 }
 
 .navbar a{

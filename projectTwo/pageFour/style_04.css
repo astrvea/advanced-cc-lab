@@ -11,6 +11,9 @@ body{
     color: white;
     text-align: right;
     padding-top: 20%;
+    font-family: "Julee", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container{
@@ -64,7 +67,7 @@ body{
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 0.5rem;
-    padding-top: 80%;
+    padding-top: 70%;
 }
 
 .slider img{

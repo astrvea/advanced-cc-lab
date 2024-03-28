@@ -1,57 +1,68 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-nav{
-    background-color: rgb(128, 221, 247);
-    font-size: 15px;
-}
-
-.nav-bar{
-    display:flex;
-    padding: 10px;
-    list-style: none;
-}
-
-.nav-item{
-    margin-right: 50px;
-    cursor: pointer;
-}
-
-.nav-item a{
-    color: black;
-    text-decoration: none;
-}
-
-.nav-bar a:hover{
-    color: rgb(230, 240, 84)
-}
-
-.welcome{
+    background-color: rgb(165, 121, 211);
+    font-family: "Comfortaa", sans-serif;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    
 }
 
-.header-image{
-    width: 30%;
+h1{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.start-test{
-    margin-top: 40px;
-    background:rgb(96, 185, 209);
-    color: white;
-    font-size: 18px;
+.quiz-container{
+    background-color: rgb(232, 204, 244);
+    box-shadow: 0 0 20px 5px black;
+    width: 700px;
     border-radius: 20px;
-    padding: 8px 20px 8px 20px;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 3rem;
+}
+
+h2{
+    padding: 1rem; 
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    font-size: large;
+    margin: 1rem 0;
+}
+
+li label{
     cursor: pointer;
 }
 
-.start-test:hover{
-    background-color:rgb(230, 240, 84)
+button{
+    background-color: rgb(251, 251, 193);
+    display: block;
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 25px;
+    border: 1px black;
+    cursor: pointer;
 }
 
-
+button:hover{
+    background-color: rgb(190, 187, 103);
+}

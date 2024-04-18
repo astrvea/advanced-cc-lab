@@ -1,6 +1,9 @@
 body{
   font-family: 'VALORANT', sans-serif;                                  
-  background: url(https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg) no-repeat center center fixed #000; 
+  background: url("https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
 }

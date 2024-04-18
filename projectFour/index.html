@@ -3,27 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet">
   <title>Valorant Agent Search</title>
 </head>
+
 <body>
+<div class="container">
   <h1>Valorant Agent Search</h1>
 
 <form id="searchForm">
 <label for="agents">Choose an agent:</label>
 <select name="agent" id="agent">
   <optgroup label="Duelists">
-    <option value="Jett">Jett</option>
     <option value="Reyna">Reyna</option>
     <option value="Phoenix">Phoenix</option>
     <option value="Raze">Raze</option>
     <option value="Yoru">Yoru</option>
+    <option value="Jett">Jett</option>
     <option value="Neon">Neon</option>
     <option value="Iso">Iso</option>
   </optgroup>
   <optgroup label="Initiators">
     <option value="Gekko">Gekko</option>
     <option value="Skye">Skye</option>
-    <option value="Sova">Sova</option>
     <option value="Breach">Breach</option>
     <option value="Fade">Fade</option>
     <option value="KAY/O">KAY/O</option>
@@ -48,10 +51,9 @@
 <input type="submit" value="Submit">
 </form>
 
-<div id="agentInfo">
-  </div>
-  
+<div id="agentInfo"></div>
 
-  <script src="main.js"></script>
+<script src="main.js"></script>
+
 </body>
 </html>
